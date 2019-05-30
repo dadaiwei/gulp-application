@@ -1,0 +1,12 @@
+{
+  "name": "gulp-all",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "dev": "gulp dev",
+    "build": "gulp build"
+  },
+  "author": "dadaiwei",
+  "license": "ISC"
+}
