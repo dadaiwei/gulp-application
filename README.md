@@ -5,19 +5,15 @@
   &nbsp;&nbsp;&nbsp;&nbsp;借助于gulp，我们可以自动化地完成js/sass/less/css等文件的的测试、检查、合并、压缩、格式化，并监听文件在改动后重复指定的这些步骤。
  ## 2.API
   + gulp.src(globs[, options])
-  <br>
-  读取目标源文件
-+ gulp.dest(path[, options])
-<br>
-向目标路径输出结果
-+ gulp.pipe()
-将目标文件通过插件处理
-<br>
-+ gulp.watch(glob [, opts], tasks) 或 gulp.watch(glob [, opts, cb])
-监视文件系统，并且可以在文件发生改动时候做一些事情
-<br>
-+ gulp.task(name, fn)
-定义一个gulp任务
+    <br>读取目标源文件
+  + gulp.dest(path[, options])
+    <br>向目标路径输出结果
+  + gulp.pipe()
+    <br>将目标文件通过插件处理
+  + gulp.watch(glob [, opts], tasks) 或 gulp.watch(glob [, opts, cb])
+    <br>监视文件系统，并且可以在文件发生改动时候做一些事情
+  + gulp.task(name, fn)
+    <br>定义一个gulp任务
 ## 3.gulp检测打包压缩js
 ### 3.1安装gulp
  全局安装gulp
