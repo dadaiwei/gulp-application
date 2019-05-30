@@ -2,6 +2,7 @@
 
 ## 1.简介
   &nbsp;&nbsp;&nbsp;&nbsp;<font color="#c7254e">gulp</font>是一种基于流的自动化构建工具，基于<font color="#c7254e">nodeJs</font>中的stream（流）来读取和写入数据，相对于<font color="#c7254e">grunt</font>直接对文件进行IO读写来说速度更快。
+  <br>
   &nbsp;&nbsp;&nbsp;&nbsp;借助于gulp，我们可以自动化地完成js/sass/less/css等文件的的测试、检查、合并、压缩、格式化，并监听文件在改动后重复指定的这些步骤。
  ## 2.API
   + gulp.src(globs[, options])
