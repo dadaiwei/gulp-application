@@ -8,7 +8,6 @@ const del = require('del'); // 清空目录
 // 合并压缩的文件
 const jsFiles = ['./main.js', './hello.js', './world.js'];
 
-
 // eslint任务，实现eslint检测和代码格式化
 gulp.task('eslint', async() => {
   await gulp.src(jsFiles)
@@ -28,9 +27,10 @@ gulp.task('jsCompress', async() => {
             .pipe(babel({
               presets: ['@babel/env'] // es6转换为es5
             }))
-            .pipe(concat('app.min.js')) // 文件合并
+            .pipe(concat('app.min.js')) // 合并为app.min.js
             .pipe(uglify()) // 文件压缩
             .pipe(gulp.dest('./dist/')) // 文件写入到dist文件夹
 });
 
+// 顺序执行clean、eslint、jsCompress任务
 gulp.task('default', gulp.series('clean', 'eslint', 'jsCompress'));
