@@ -22,5 +22,5 @@ gulp.task('image', async() => {
             .pipe(gulp.dest('./dist'));
 })
 
-// 先串行执行del任务，后并行执行html和image任务
+// 先串行执行clean任务，后并行执行html和image任务
 gulp.task('default', gulp.series('clean', gulp.parallel('html', 'image')));

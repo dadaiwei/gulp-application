@@ -80,6 +80,7 @@ const imageMin = () => {
              .pipe(imagemin())
              .pipe(gulp.dest('./dist/img'));
 };
+
 // image:dev任务，用于开发环境
 gulp.task('image:dev', async() => {
   await imageMin().pipe(connect.reload());
