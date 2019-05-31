@@ -521,6 +521,8 @@ gulp.task('build', gulp.series('clean', gulp.parallel('html:build', 'js:build', 
 
 &nbsp;&nbsp;&nbsp;&nbsp;以上就是博主探索出的gulp4在前端工程化的应用。相信大家看完文章后对gulp应该有了一个初步的认识，后续感兴趣的小伙伴还可以考虑将gulp集成到webpack配置中，更好地提升开发效率。
 
+gulp中文网：https://www.gulpjs.com.cn
+
 （觉得不错的小伙伴可以給文章点个赞，还有star一下，灰常感谢^_^）
 
   
