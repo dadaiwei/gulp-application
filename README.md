@@ -36,27 +36,20 @@ $ gulp
 </table>
 
  ## 3.常用API
-+ gulp.src(globs[, options])
-<br>
-读取目录下的文件
-+ gulp.dest(path[, options])
-<br>
-向目录写入文件
-+ gulp.task(name[, deps], fn)
-<br>
-定义一个gulp任务
-+ gulp.pipe()
-<br> 
-将目标文件通过插件处理
-+ gulp.watch(glob [, opts], tasks) 或 gulp.watch(glob [, opts, cb])
-<br>
-监视文件系统，并且可以在文件发生改动时候执行操作
-+ gulp.series(task1, task2, task3) (gulp4新增)
-<br>
-串行执行任务
-+ gulp.parallel(task1, task2, task3) (gulp4新增)
-<br>
-并行执行任务
+* gulp.src(globs[, options])
+<br>读取目录下的文件
+* gulp.dest(path[, options])
+<br>向目录写入文件
+* gulp.task(name[, deps], fn)
+<br>定义一个gulp任务
+* gulp.pipe()
+<br>将目标文件通过插件处理
+* gulp.watch(glob [, opts], tasks) 或 gulp.watch(glob [, opts, cb])
+<br>监视文件系统，并且可以在文件发生改动时候执行操作
+* gulp.series(task1, task2, task3) (gulp4新增)
+<br>串行执行任务
+* gulp.parallel(task1, task2, task3) (gulp4新增)
+<br>并行执行任务
 ## 4.gulp3与glup4
 gulp3与gulp4的变化，主要体现在任务定义及执行体系的变化。
 ### 4.1gulp3中任务定义及执行顺序
