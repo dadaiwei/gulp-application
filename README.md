@@ -1,5 +1,6 @@
 # gulp-application
-
+## 前言
+&nbsp;&nbsp;&nbsp;&nbsp;博主最近准备开发一个UI组件库，遇到了一个难题，博主希望单独打包组件样式scss文件，而不是与组件一起用webpack打包。调研发现gulp可以解决这个问题，于是，研究了下gulp4在前端工程化中的应用。
 ## 1.简介
   &nbsp;&nbsp;&nbsp;&nbsp;<font color="#c7254e">gulp</font>是一种基于流的自动化构建工具，基于<font color="#c7254e">nodeJs</font>中的stream（流）来读取和写入数据，相对于<font color="#c7254e">grunt</font>直接对文件进行IO读写来说速度更快。
   <br>
